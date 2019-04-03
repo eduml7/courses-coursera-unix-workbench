@@ -10,6 +10,12 @@ function guess_game(){
   fi
 }
 
+function incorrect_response(){
+  local high_low_answer=$([ "$user_number_files" -gt "$NUM_FILES" ] && echo "high" || echo "low")
+  echo "Nope, please try again. Your answer is too $high_low_answer"
+}
+
 while
   guess_game
-do echo "Nope, please try again."; done
+do incorrect_response
+done
