@@ -1,2 +1,3 @@
-# courses-coursera-unix-workbench
-This repo has the final project of the course The Unix Workbench, hosted by coursera
+The Unix Workbench
+Make executed at: mié abr  3 17:26:51 CEST 2019
+Number of lines: 21 guessinggame.sh
