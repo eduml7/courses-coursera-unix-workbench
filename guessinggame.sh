@@ -10,6 +10,6 @@ function guess_game(){
   fi
 }
 
-while true; do
+while
   guess_game
-done
+do echo "Nope, please try again."; done
